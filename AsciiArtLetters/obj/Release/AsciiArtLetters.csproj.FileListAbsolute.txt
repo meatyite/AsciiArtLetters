@@ -1,0 +1,3 @@
+/home/sl4v/Projects/AsciiArtLetters/AsciiArtLetters/bin/Release/AsciiArtLetters.dll
+/home/sl4v/Projects/AsciiArtLetters/AsciiArtLetters/obj/Release/AsciiArtLetters.csproj.CoreCompileInputs.cache
+/home/sl4v/Projects/AsciiArtLetters/AsciiArtLetters/obj/Release/AsciiArtLetters.dll

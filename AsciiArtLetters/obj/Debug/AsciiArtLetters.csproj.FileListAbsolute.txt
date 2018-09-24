@@ -1,0 +1,2 @@
+/home/sl4v/Projects/AsciiArtLetters/AsciiArtLetters/obj/Debug/AsciiArtLetters.csprojResolveAssemblyReference.cache
+/home/sl4v/Projects/AsciiArtLetters/AsciiArtLetters/obj/Debug/AsciiArtLetters.csproj.CoreCompileInputs.cache
