@@ -5,7 +5,7 @@
 Download and unzip the zip file from this github page <br />
 add an external dll reference in your IDE <br />
 ### Test the library
-make a Console project named testasciilib and type in the following <br />
+make a Console project named "testasciilib" (without quotation marks) and type in the following <br />
 ```
 using System;
 using AsciiArtLetters;
@@ -16,13 +16,12 @@ namespace testasciilib
     {
         public static void Main(string[] args)
         {
-			      string lowerA = AsciiArtLetters.GraffitiL.a();
-			      Console.WriteLine(lowerA);  
+		string lowerA = AsciiArtLetters.GraffitiL.a();
+		Console.WriteLine(lowerA);  
         }
     }
 }
 ```
-if everything goes ok and you dont get any errors, its working.
 ## In other programming languages
 ### Python (Windows only)
 Download and unzip the zip file from this github page <br />
@@ -39,4 +38,5 @@ lowerA = asciiartletters.GraffitiL.a()
 
 print lowerA
 ```
-if everything goes ok and you dont get any errors, its working.
+(open an issue on this github repo and tell me if this works)
+
