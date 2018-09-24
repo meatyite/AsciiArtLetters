@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Runtime.InteropServices;
+
 namespace AsciiArtLetters
 {
+	[ComVisible(true)]
     public static class GraffitiL
-    {
+	{
 		public static string a()
 		{
             // return this string at the end

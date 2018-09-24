@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 namespace AsciiArtLetters
 {
     public static class GraffitiH
     {
+        [ComVisible(true)]
 		public static string a()
 		{
             // return this string at the end
