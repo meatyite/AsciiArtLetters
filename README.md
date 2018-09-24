@@ -22,6 +22,7 @@ namespace testasciilib
     }
 }
 ```
+now run the program.
 ## In other programming languages
 ### Python (Windows only)
 Download and unzip the zip file from this github page <br />
