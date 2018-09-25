@@ -16,7 +16,7 @@ namespace testasciilib
     {
         public static void Main(string[] args)
         {
-		string lowerA = AsciiArtLetters.GraffitiL.a();
+		string lowerA = GraffitiL.a();
 		Console.WriteLine(lowerA);  
         }
     }
