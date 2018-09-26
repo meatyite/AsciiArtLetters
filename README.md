@@ -32,11 +32,11 @@ you can test and use the library using the "python for .NET" library http://pyth
 ```
 import clr
 
-dll = clr.AddReference('AsciiArtLetters')
+clr.AddReference('AsciiArtLetters')
+import AsciiArtLetters
 
-lowerA = dll.GraffitiL.a()
+print AsciiArtLetters.GraffitiL.a()
 
-print lowerA
 ```
 (open an issue on this github repo and tell me if this works)
 
