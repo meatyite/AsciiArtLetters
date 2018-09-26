@@ -24,18 +24,17 @@ namespace testasciilib
 ```
 now run the program.
 ## In other programming languages
-### Python (Windows only)
+### Python
 Download and unzip the zip file from this github page <br />
 add the dll to your project's folder (from AsciiArtLetters-master/AsciiArtLetters/bin/Release)
 #### Test the library
+you can test and use the library using the "python for .NET" library http://pythonnet.github.io/
 ```
-import ctypes
+import clr
 
-asciiartletters = ctypes.CDLL('AsciiArtLetters.dll')
+dll = clr.AddReference('AsciiArtLetters')
 
-# test the dll
-
-lowerA = asciiartletters.GraffitiL.a()
+lowerA = dll.GraffitiL.a()
 
 print lowerA
 ```
