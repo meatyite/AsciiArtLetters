@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+
 namespace AsciiArtLetters
 {
 	[ComVisible(true)]
-    public static class GraffitiH
-    { 
+    public static class BigMonkey_ne_L
+	{
 		public static string a()
 		{
             // return this string at the end
@@ -13,12 +14,12 @@ namespace AsciiArtLetters
 			// make a readable array of the ascii art letter
 			string[] letterarray =
 			{
-				@"   _____   ",
-				@"  /  _  \  ",
-				@" /  /_\  \ ",
-				@"/    |    \",
-				@"\____|__  /",
-				@"        \/ "
+				@"  /$$$$$$ ",
+				@" |____  $$",
+				@"  /$$$$$$$",
+				@" /$$__  $$",
+				@"|  $$$$$$$",
+				@" \_______/"
 			};
 
             // turn the array to a string using a for loop
@@ -39,12 +40,14 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"__________ ",
-				@"\______   \",
-				@" |    |  _/",
-				@" |    |   \",
-				@" |______  /",
-				@"        \/ "
+				@" /$$      ",
+				@"| $$      ",
+				@"| $$$$$$$ ",
+				@"| $$__  $$",
+				@"| $$  \ $$",
+				@"| $$  | $$",
+				@"| $$$$$$$/",
+                @"|_______/ s"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -62,12 +65,12 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"_________  ",
-				@"\_   ___ \ ",
-				@"/    \  \/ ",
-				@"\     \____",
-				@" \______  /",
-				@"        \/ "
+				@"  /$$$$$$$",
+				@" /$$_____/",
+				@"| $$      ",
+				@"| $$      ",
+				@"|  $$$$$$$",
+				@" \_______/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -85,12 +88,14 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"________   ",
-				@"\______ \  ",
-				@" |    |  \ ",
-				@" |    `   \",
-				@"/_______  /",
-				@"        \/ "
+				@"       /$$",
+				@"      | $$",
+				@"  /$$$$$$$",
+				@" /$$__  $$",
+				@"| $$  | $$",
+				@"| $$  | $$",
+                @"|  $$$$$$$",
+				@" \_______/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -107,12 +112,12 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"___________",
-				@"\_   _____/",
-				@" |    __)_ ",
-				@" |        \",
-				@"/_______  /",
-				@"        \/ "
+				@"  /$$$$$$ ",
+				@" /$$__  $$",
+				@"| $$$$$$$$",
+				@"| $$_____/",
+				@"|  $$$$$$$",
+				@" \_______/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -129,12 +134,14 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"___________",
-				@"\_   _____/",
-				@" |    __)  ",
-				@" |     \   ",
-				@" \___  /   ",
-				@"     \/    "
+				@"  /$$$$$$ ",
+				@" /$$__  $$",
+				@"| $$  \__/",
+				@"| $$$$    ",
+				@"| $$_/    ",
+				@"| $$      ",
+				@"| $$      ",
+				@"|__/      "
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -151,12 +158,15 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"  ________ ",
-				@" /  _____/ ",
-				@"/   \  ___ ",
-				@"\    \_\  \",
-				@" \______  /",
-				@"        \/ "
+				@"  /$$$$$$ ",
+				@" /$$__  $$",
+				@"| $$  \ $$",
+				@"| $$  | $$",
+				@"|  $$$$$$$",
+				@" \____  $$",
+				@" /$$  \ $$",
+				@"|  $$$$$$/",
+				@" \______/ "
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -173,19 +183,21 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"  ___ ___  ",
-				@" /   |   \ ",
-				@"/    ~    \",
-				@"\    Y    /",
-				@" \___|_  / ",
-				@"       \/  "
+				@" /$$      ",
+				@"| $$      ",
+				@"| $$$$$$$ ",
+				@"| $$__  $$",
+				@"| $$  \ $$",
+				@"| $$  | $$",
+				@"| $$  | $$",
+				@"|__/  |__/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
 			{
 				letterstr += letterarray[i] + "\n";
 			}
-                
+
 			return letterstr;
 		}
 
@@ -195,11 +207,14 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@".___ ",
-				@"|   |",
-				@"|   |",
-				@"|   |",
-				@"|___|"
+				@" /$$",
+				@"|__/",
+				@" /$$",
+				@"| $$",
+				@"| $$",
+				@"| $$",
+				@"| $$",
+				@"|__/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -216,11 +231,15 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"     ____.",
-				@"    |    |",
-				@"    |    |",
-				@"/\__|    |",
-				@"\________|"
+				@"       /$$",
+				@"      |__/",
+				@"       /$$",
+				@"      | $$",
+				@"      | $$",
+				@"      | $$",
+				@" /$$  | $$",
+				@"|  $$$$$$/",
+				@" \______/ "
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -237,12 +256,14 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@" ____  __.",
-				@"|    |/ _|",
-				@"|      <  ",
-				@"|    |  \ ",
-				@"|____|__ \",
-				@"        \/"
+				@" /$$      ",
+				@"| $$      ",
+				@"| $$   /$$",
+				@"| $$  /$$/",
+				@"| $$$$$$/ ",
+				@"| $$_  $$ ",
+				@"| $$ \  $$",
+				@"|__/  \__/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -259,12 +280,14 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@".____     ",
-				@"|    |    ",
-				@"|    |    ",
-				@"|    |___ ",
-				@"|_______ \",
-				@"        \/"
+				@" /$$",
+				@"| $$",
+				@"| $$",
+				@"| $$",
+				@"| $$",
+				@"| $$",
+				@"| $$",
+				@"|__/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -275,18 +298,19 @@ namespace AsciiArtLetters
 			return letterstr;
 		}
 
+        
 		public static string m()
 		{
 			string letterstr = String.Empty;
 
 			string[] letterarray =
 			{
-				@"   _____   ",
-				@"  /     \  ",
-				@" /  \ /  \ ",
-				@"/    Y    \",
-				@"\____|__  /",
-				@"        \/ "
+				@" /$$$$$$/$$$$ ",
+				@"| $$_  $$_  $$",
+				@"| $$ \ $$ \ $$",
+				@"| $$ | $$ | $$",
+				@"| $$ | $$ | $$",
+				@"|__/ |__/ |__/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -303,12 +327,12 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@" _______   ",
-				@" \      \  ",
-				@" /   |   \ ",
-				@"/    |    \",
-				@"\____|__  /",
-				@"        \/ "
+				@" /$$$$$$$ ",
+				@"| $$__  $$",
+				@"| $$  \ $$",
+				@"| $$  | $$",
+				@"| $$  | $$",
+				@"|__/  |__/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -325,12 +349,12 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"________   ",
-				@"\_____  \  ",
-				@" /   |   \ ",
-				@"/    |    \",
-				@"\_______  /",
-				@"        \/ "
+				@"  /$$$$$$ ",
+				@" /$$__  $$",
+				@"| $$  \ $$",
+				@"| $$  | $$",
+				@"|  $$$$$$/",
+				@" \______/ "
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -347,11 +371,15 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"__________ ",
-				@"\______   \",
-				@" |     ___/",
-				@" |    |    ",
-				@" |____|    "
+				@"  /$$$$$$ ",
+				@" /$$__  $$",
+				@"| $$  \ $$",
+				@"| $$  | $$",
+				@"| $$$$$$$/",
+				@"| $$____/ ",
+				@"| $$      ",
+				@"| $$      ",
+				@"|__/      "
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -368,12 +396,15 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"________   ",
-				@"\_____  \  ",
-				@" /  / \  \ ",
-				@"/   \_/.  \",
-				@"\_____\ \_/",
-                @"       \__>"
+				@"  /$$$$$$ ",
+				@" /$$__  $$",
+				@"| $$  \ $$",
+				@"| $$  | $$",
+				@"|  $$$$$$$",
+				@" \____  $$",
+				@"      | $$",
+				@"      | $$",
+				@"      |__/"
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -390,12 +421,12 @@ namespace AsciiArtLetters
 
 			string[] letterarray =
 			{
-				@"__________ ",
-				@"\______   \",
-				@" |       _/",
-				@" |    |   \",
-				@" |____|_  /",
-				@"        \/ "
+				@"  /$$$$$$ ",
+				@" /$$__  $$",
+				@"| $$  \__/",
+				@"| $$      ",
+				@"| $$      ",
+				@"|__/      "
 			};
 
 			for (int i = 0; i < letterarray.Length; i++)
@@ -412,12 +443,12 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@"  _________",
-				@" /   _____/",
-				@" \_____  \ ",
-				@" /        \",
-				@"/_______  /",
-				@"        \/ "
+				@"  /$$$$$$$",
+				@" /$$_____/",
+				@"|  $$$$$$ ",
+				@" \____  $$",
+				@" /$$$$$$$/",
+				@"|_______/ "
             };
 
             for (int i = 0; i < letterarray.Length; i++)
@@ -434,11 +465,13 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@"___________",
-				@"\__    ___/",
-				@"  |    |   ",
-				@"  |    |   ",
-				@"  |____|   "
+				@"   /$$    ",
+				@"  | $$    ",
+				@" /$$$$$$  ",
+				@"|_  $$_/  ",
+				@"  | $$    ",
+				@"  | $$ /$$",
+				@"   \___/  "
             };
 
             for (int i = 0; i < letterarray.Length; i++)
@@ -455,11 +488,12 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@" ____ ___ ",
-				@"|    |   \",
-				@"|    |   /",
-				@"|    |  / ",
-				@"|______/  "
+				@" /$$   /$$",
+				@"| $$  | $$",
+				@"| $$  | $$",
+				@"| $$  | $$",
+				@"|  $$$$$$/",
+				@" \______/ "
             };
 
             for (int i = 0; i < letterarray.Length; i++)
@@ -476,11 +510,12 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@"____   ____",
-				@"\   \ /   /",
-				@" \   Y   / ",
-				@"  \     /  ",
-				@"   \___/   "
+				@" /$$    /$$",
+				@"|  $$  /$$/",
+				@" \  $$/$$/ ",
+				@"  \  $$$/  ",
+				@"   \  $/   ",
+				@"    \_/    "
             };
 
             for (int i = 0; i < letterarray.Length; i++)
@@ -497,10 +532,12 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@"__  _  __",
-				@"\ \/ \/ /",
-				@" \     / ",
-				@"  \/\_/  "
+				@" /$$  /$$  /$$",
+				@"| $$ | $$ | $$",
+				@"| $$ | $$ | $$",
+				@"| $$ | $$ | $$",
+				@"|  $$$$$/$$$$/",
+				@" \_____/\___/ "
             };
 
             for (int i = 0; i < letterarray.Length; i++)
@@ -517,12 +554,12 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@"____  ___",
-				@"\   \/  /",
-				@" \     / ",
-				@" /     \ ",
-				@"/___/\  \",
-				@"      \_/"    
+				@" /$$   /$$",
+				@"|  $$ /$$/",
+				@" \  $$$$/ ",
+				@"  >$$  $$ ",
+				@" /$$/\  $$",
+				@"|__/  \__/"
             };
 
             for (int i = 0; i < letterarray.Length; i++)
@@ -539,12 +576,15 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@"_____.___.",
-				@"\__  |   |",
-				@" /   |   |",
-				@" \____   |",
-				@" / ______|",
-				@" \/       "
+				@" /$$   /$$",
+				@"| $$  | $$",
+				@"| $$  | $$",
+				@"| $$  | $$",
+				@"|  $$$$$$$",
+				@" \____  $$",
+				@" /$$  | $$",
+				@"|  $$$$$$/",
+				@" \______/ "
             };
 
             for (int i = 0; i < letterarray.Length; i++)
@@ -561,12 +601,12 @@ namespace AsciiArtLetters
 
             string[] letterarray =
             {
-				@"__________",
-				@"\____    /",
-				@"  /     / ",
-				@" /     /_ ",
-				@"/_______ \",
-				@"        \/"
+				@" /$$$$$$$$",
+				@"|____ /$$/",
+				@"   /$$$$/ ",
+				@"  /$$__/  ",
+				@" /$$$$$$$$",
+				@"|________/"
             };
 
             for (int i = 0; i < letterarray.Length; i++)
